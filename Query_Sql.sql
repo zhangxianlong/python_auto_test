@@ -1,0 +1,2 @@
+SELECT series_sku_code seriesSkuCode,NAME setmealName,series_name seriesName,sku_code productSkuCode,onshelf_state STATUS FROM t_wt_org_setmeal
+ WHERE 1 = 1 AND del_state = 1 GROUP BY series_sku_code LIMIT 0,30;
